@@ -108,3 +108,18 @@ input[type="submit"] {
 .template {
     display: none;
 }
+
+/* Rodapé */
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #E60084;
+    width: 99%;   
+    text-align: center;
+    height: 40px;
+}
+
+footer p {
+    margin-top: 10px;
+    color: white;
+}
