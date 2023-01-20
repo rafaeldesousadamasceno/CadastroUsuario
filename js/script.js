@@ -30,14 +30,14 @@ class Validator {
                 /**
                  * Verifica se a validação atual existe no input
                  */
-                if (input.getAttribute(this.validations[i] != null)) {
+                if (input.getAttribute(this.validations[i]) != null) {      
                     /**
                      * Limpando a string para virar um método
                      */
                     let method = this.validations[i].replace('data-', '').replace('-', '');
 
                     /**
-                     * Valor do input para validar
+                     * Valor do atributo data-min-length criado
                      */
                     let value = input.getAttribute(this.validations[i]);
 
